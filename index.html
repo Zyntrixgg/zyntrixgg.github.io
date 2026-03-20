@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unblocked Games</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: #0f0f0f;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #1a1a2e;
+padding: 20px;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+color: #e94560;
+}
+
+.games-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 20px;
+padding: 30px;
+}
+
+.game-card {
+background-color: #1a1a2e;
+border-radius: 10px;
+overflow: hidden;
+cursor: pointer;
+transition: transform 0.2s;
+}
+
+.game-card:hover {
+transform: scale(1.05);
+}
+
+.game-card img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+}
+
+.game-card p {
+text-align: center;
+padding: 10px;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>🎮 Unblocked Games</header>
+
+<div class="games-grid">
+
+<!-- PASTE YOUR GAMES HERE -->
+<div class="game-card" onclick="window.location.href='game1.html'">
+<img src="https://img.gamedistribution.com/placeholder.jpg" alt="Game 1">
+<p>Game 1</p>
+</div>
+
+</div>
+
+</body>
+</html>
